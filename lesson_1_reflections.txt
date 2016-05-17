@@ -1,0 +1,35 @@
+It was interesting to know that we can compare files straight on command line. Thanks for this useful information.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the entire history makes it easier for a programmer to revert back to a previous version of a file in case some code is messed up or if someone else made some change that broke some other functionality. I believe it also occupies less space on our hard disc compared to saving hard copies.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A big pro of manual commits is that a developer can logically commit steps which is easier to understand later.
+Con on manual commits is one can easily forget to commit some important steps.
+
+Pro of automatic commits is that a developer does not have to remember to commit while writing code.
+Con would be it might automatically commit a half written code which might not make any sense later.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Sometimes multiple files are interrelated and it makes sense to save all related files in a single commit. If not, it would be harder and tedious to commit changes to multiple files individually.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+once you are in the repository directory in Terminal, using git log will show you all the commits in the history of the repository and git diff command will help you compare the changes between 2 commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Using version control a developer can always revert back to previous versions of an App incase if anything breaks while writting new code.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use git for all my future projects.

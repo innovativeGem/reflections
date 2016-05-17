@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when we run git init command git creates a new hidden repository .git. We need to create repository to be able to commit and retrieve various versions of a project.
