@@ -21,3 +21,8 @@ Branches could be very useful when the author wants to create new features or ex
 How do the diagrams help you visualize the branch structure?
 
 diagrams helps us to visualise the order of commits, parent of commits, rateability of commits and branches.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When we merge two branches, modifications of both branches are merged into one. As branch acts as independent to the master, it is shown as parallel to the master branch with all the commits and once its objective is achieved it merges back into master. 
