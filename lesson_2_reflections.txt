@@ -6,3 +6,13 @@ when we run git init command git creates a new hidden repository .git. We need t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is a bridge between working directory and git repo. It allows us to add and verify files and changes before committing it to the repo.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+When we add the files on staging we can compare the difference between file in working directory and files on staging and make sure all the changes are made correctly.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches could be very useful when the author wants to create new features or experimental versions of an ongoing project without disturbing master project. Branches would also be useful when multiple teams or developers are working on a project where one team is responsible for developing certain modules and other team for a different sort of features and finally collaborate into one final project.
