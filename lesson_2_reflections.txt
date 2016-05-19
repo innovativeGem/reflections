@@ -25,4 +25,9 @@ diagrams helps us to visualise the order of commits, parent of commits, rateabil
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-When we merge two branches, modifications of both branches are merged into one. As branch acts as independent to the master, it is shown as parallel to the master branch with all the commits and once its objective is achieved it merges back into master. 
+When we merge two branches, modifications of both branches are merged into one. As branch acts as independent to the master, it is shown as parallel to the master branch with all the commits and once its objective is achieved it merges back into master.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+With automatic commits git automatically works out the changes between two commits or branches and merges them without any manual effort. With Manually merge author has the control over what changes to put through for the final version. 
